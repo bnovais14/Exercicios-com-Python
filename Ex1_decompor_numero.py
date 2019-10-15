@@ -1,0 +1,14 @@
+n = int (input("Númer (5 dígitos):"))
+n1 = n//10000
+print (n1, end= ' \n')
+x = n%10000
+n2 = x//1000
+print(n2,  end= ' \n')
+x= x%1000
+n3 = x//100
+print(n3,  end= ' \n')
+x=x%100
+n4= x//10
+print(n4,  end= ' \n')
+n5=x%10
+print(n5, end= ' \n')
